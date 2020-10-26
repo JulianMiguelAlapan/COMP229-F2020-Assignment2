@@ -6,8 +6,8 @@ let Model = mongoose.model;
 let UserSchema = Schema({
    username: String,
    //password: string,
+   contact: String,
    email: String,
-   displayName: String,
    created: 
    {
         type: Date,
